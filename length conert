@@ -1,0 +1,14 @@
+# Length conversion
+
+x_millimeter = int(input("provide input in millimeter: "))
+x_centimeter = x_millimeter / 10
+x_meter = x_millimeter / 1000
+x_kilometer = x_millimeter / 10e5
+x_inch = x_millimeter / 25.4
+x_foot = x_millimeter / 304.8
+
+print("The distance in centimeter is %i centimeter." % x_centimeter)
+print("The distance in meter is %i meter." % x_meter)
+print("The distance in kilometer is %i kilometer." % x_kilometer)
+print("The distance in inch is %i inch." % x_inch)
+print("The distance in foot is %i foot." % x_foot)
