@@ -1,0 +1,31 @@
+# rainbow
+# from turtle import *
+
+
+def draw_are(color):
+    global radius
+    turtle.penup()
+    turtle.setposition(radius, y_start)
+    turtle.setheading(90)
+    turtle.pendown()
+    turtle.pencolor(color)
+    turtle.circle(radius, 360)
+    radius -= width
+
+
+import turtle
+
+width = 30
+radius = 180
+y_start = 180
+y_start = -radius / 5
+turtle.pensize(width + 1)
+draw_are('violet')
+draw_are('indigo')
+draw_are('blue')
+draw_are('green')
+draw_are('yellow')
+draw_are('orange')
+draw_are('red')
+# finish
+turtle.hideturtle()
